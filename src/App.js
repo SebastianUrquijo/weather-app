@@ -26,7 +26,7 @@ function onSearch(ciudad,pais){ //función que busca la ciudad dentro de la API
 if(cities.length <6){ // se establece un limite de ciudades dentro del array
   let country = verify(pais)
   if(ciudad && country){  
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${country}&units=metric&lang=en&appid=${apiKey}`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${country}&units=metric&lang=en&appid=${apiKey}`)
     .then(data => data.json())  //convierte la data de la API a JSON
     .then((city) => { // por medio de una función se extraen los datos que se necesitan
       if(city.name !== undefined){ //evita procesar objetos vacíos
