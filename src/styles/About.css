@@ -1,0 +1,67 @@
+.infoZone{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.infoBox{
+display: flex;
+width: 400px;
+margin: 3rem;
+}
+
+.infoBox ul{
+    text-align: left;
+}
+
+.infoBox li{
+    margin: 0.5rem;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+.miniPictures{
+    padding: 1rem;
+    width: 380px;
+    height: 150px;
+    background-color: #005954;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-gap: 1.5rem; 
+}
+
+.sector{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* #back{
+    border-radius: 50%;
+    background-size: 100%;
+    background-size: cover;
+} */
+
+.logotipe{
+    width: 60px;
+    height: 60px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.logotipe img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20%;
+        transition: 0.3s ease;
+}
+
+.logotipe img:hover{
+    transition: 0.3s ease;
+    transform: rotateZ(25deg);
+}

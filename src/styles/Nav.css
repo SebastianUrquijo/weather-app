@@ -1,0 +1,29 @@
+.navBar{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #568fb9;
+    padding: 1rem;
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+#creator{
+    padding-left: 1rem;
+}
+
+#homeLink {
+    padding: 1rem;
+    justify-content: center;
+    text-decoration: none;
+    color: antiquewhite
+}
+
+#homeLink:hover{
+    background-color: #005954;
+    border-radius: 2rem;
+    color: antiquewhite;
+}
+

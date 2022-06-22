@@ -1,0 +1,91 @@
+.cityBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.Cold{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 550px;
+    height: 380px;
+    position: relative;
+    background: linear-gradient(to bottom,#2888ff,#0076f4);
+    opacity: 0.85;
+    color:#000000;
+    font-weight: 700;
+}
+
+.Warm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 550px;
+    height: 380px;
+    position: relative;
+    background: linear-gradient(to bottom,#22c993,#00b581);
+    opacity: 0.85;
+    color:#000000;
+    font-weight: 700;
+}
+
+.Hot{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 550px;
+    height: 380px;
+    position: relative;
+    background: linear-gradient(to bottom,#ffb12c,#ee8b00);
+    opacity: 0.85;
+    color:#000000;
+    font-weight: 700;
+}
+
+.icon2{
+    right: 40px;
+    top: 100px;
+    height: 130px;
+    width: 130px;
+}
+
+.alphaInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.sectorA img{
+    margin-right: 3rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.deltaInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blockA{
+    display: flex;
+    flex-direction: column;
+}
+
+.blockB{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sectorA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

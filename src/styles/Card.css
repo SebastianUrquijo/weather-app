@@ -1,0 +1,119 @@
+.logoCity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    color: #001219;
+    flex-direction: column;
+}
+
+.weatherImg{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+
+.Cold{
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+width: 350px;
+height: 250px;
+position: relative;
+background: linear-gradient(to bottom,#2888ff,#0076f4);
+margin: 15px;
+opacity: 0.85;
+color:#000000;
+font-weight: 700;
+}
+
+.Warm{
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+width: 350px;
+height: 250px;
+position: relative;
+background: linear-gradient(to bottom,#22c993,#00b581);
+margin: 15px;
+opacity: 0.85;
+color:#000000;
+font-weight: 700;
+}
+
+.Hot{
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+width: 350px;
+height: 250px;
+position: relative;
+background: linear-gradient(to bottom,#ffb12c,#ee8b00);
+margin: 15px;
+opacity: 0.85;
+color:#000000;
+font-weight: 700;
+}
+
+
+
+.btn{
+height: 30px;
+width: 30px;
+position: absolute;
+right: 10px;
+top: 10px;
+border-radius: 5px;
+background-color: #001219;
+color: white;
+border:none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #001219;
+}
+
+
+.icon{
+    background-color: #94d2bd;
+    border-radius: 10px;
+    position: absolute;
+    right: 40px;
+    top:30px;
+    height: 100px;
+    width: 100px;
+}
+
+.cardTitle{
+    display: flex;
+}
+.cardCity{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #001219;
+}
+
+.titleInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: larger;
+}
+
+.firstInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card h2{
+margin: 20px;
+}
+.card h4{
+    margin: 2px;
+}
